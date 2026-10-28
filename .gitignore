@@ -1,0 +1,19 @@
+# --- Entornos y archivos temporales ---
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# --- Datos ---
+# No se suben los microdatos del DANE ni las capas intermedias (son pesados y no los usa el sistema).
+# Sí se suben las tablas de resultados (datos/oro) y las referencias que lee el sistema.
+datos/*
+!datos/oro/
+!datos/referencia/
+datos/referencia/*.xlsx
+
+# --- Configuración privada de Streamlit (si se usa en el futuro) ---
+.streamlit/secrets.toml

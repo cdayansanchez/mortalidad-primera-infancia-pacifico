@@ -1,0 +1,9 @@
+# Paleta del sistema de visualización y consulta
+# Mortalidad en la primera infancia - Región Pacífica
+
+[theme]
+base = "light"
+primaryColor = "#2563EB"              # azul: botones, filtros seleccionados, pestaña activa
+backgroundColor = "#F1F5F9"           # gris muy claro: fondo de la página
+secondaryBackgroundColor = "#FFFFFF"  # blanco: barra lateral, tarjetas y campos
+textColor = "#0F172A"                 # azul casi negro: textos
