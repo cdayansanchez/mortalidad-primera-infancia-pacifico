@@ -348,8 +348,7 @@ with tab_territorio:
     st.warning("Estas tasas usan como denominador las proyecciones de población del DANE, que "
                "suponen más niños de los que nacieron en 2022-2024 (los nacimientos cayeron con "
                "fuerza). Por eso sus valores absolutos probablemente están subestimados y solo se "
-               "presentan para el período acumulado, para comparar territorios. La distorsión parece "
-               "mayor en el Chocó, así que su diferencia con los demás es, si acaso, conservadora.")
+               "presentan para el período acumulado, para comparar territorios.")
 
     # 6.3 Mapa municipal (siempre mortalidad infantil acumulada)
     st.subheader("Mortalidad infantil por municipio, 2022-2024")
